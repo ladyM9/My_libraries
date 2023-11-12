@@ -1,3 +1,4 @@
+#include <LED.h>
 #include "LDR.h"
 
 LDR::LDR()
