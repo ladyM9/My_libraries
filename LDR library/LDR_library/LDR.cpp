@@ -13,5 +13,7 @@ void LDR::begin()
 void LDR::LDR_sensor(int pin)
 {
   pinMode(pin, OUTPUT);
-  analogRead(pin);
+  int stanje = analogRead(pin);
+  Serial.println(stanje);
+  delay(1);
 }
