@@ -9,7 +9,7 @@ class LDR
   public:
   LDR();
   void begin();
-  void LDR_sensor(int pin);
+  int LDR_sensor(int pin);
 };
 
 #endif
