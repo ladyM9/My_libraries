@@ -18,12 +18,5 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  if(ldr.LDR_sensor(A0) >= 600)
-  {
-    led.Turn_on(D4, 5000);
-  }
-  
-  
-
-  
+  (ldr.LDR_sensor(A0));
 }

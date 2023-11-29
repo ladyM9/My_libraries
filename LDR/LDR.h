@@ -7,7 +7,7 @@
 class LDR
 {
   public:
-  LDR();
+  LDR(); //konstuktor!!!!
   void begin();
   int LDR_sensor(int pin);
 };
